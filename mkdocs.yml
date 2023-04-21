@@ -1,0 +1,6 @@
+site_name: Albert Fougy
+site_url:  https://albertfougy.com
+nav:
+    - Home: index.md
+    - About: about.md
+theme: terminal
