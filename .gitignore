@@ -1,4 +1,3 @@
-# Ignore everything except docs and mkdocs.yml
 *.DS_Store
 
 # Byte-compiled / optimized / DLL files
