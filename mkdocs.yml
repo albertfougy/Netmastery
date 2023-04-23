@@ -34,5 +34,5 @@ nav:
   - License: 'license/index.md'
   - CCNA by Cisco University:
     - Index: 'ccna-ciscoU/index.md'
-    - Functions Of Networking: 'ccna-ciscoU/exploring-the-functions-of-networking.md'
+    - Of Networking: 'ccna-ciscoU/exploring-the-functions-of-networking.md'
     - Network Definition: 'ccna-ciscoU/what-is-a-computer-network.md'
