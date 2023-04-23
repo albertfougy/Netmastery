@@ -29,9 +29,9 @@ markdown_extensions:
         - docs
 
 nav:
-  - Home: index.md
-  - About: about.md
-  - License: license.md
+  - Home: 'index.md'
+  - About: 'about/index.md'
+  - License: 'license/index.md'
   - CCNA by Cisco University:
     - Index: 'ccna-ciscoU/index.md'
     - Functions Of Networking: 'ccna-ciscoU/exploring-the-functions-of-networking.md'
