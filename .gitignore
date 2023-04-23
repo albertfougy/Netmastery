@@ -1,8 +1,6 @@
-# Ignore the github pages directory
-albertfougy.github.io
-
 # Ignore everything except docs and mkdocs.yml
-**/.DS_Store
+*.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
