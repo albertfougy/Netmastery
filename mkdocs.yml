@@ -1,6 +1,38 @@
 site_name: Albert Fougy
-site_url:  https://albertfougy.com
+site_url: https://albertfougy.com
+
+theme:
+  name: terminal
+  features:
+    - navigation.side.indexes
+    - footer.prev_next
+    - revision.history
+
+markdown_extensions:
+  # Python Markdown
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - tables
+  - toc:
+      permalink: "#"
+      permalink_title: Anchor link to this section for reference
+
+  # PyMdown Extensions
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      base_path:
+        - docs
+
 nav:
-    - Home: index.md
-    - About: about.md
-theme: terminal
+  - Home: index.md
+  - About: about.md
+  - License: license.md
+  - CCNA by Cisco University:
+    - Index: 'ccna-ciscoU/index.md'
+    - Functions Of Networking: 'ccna-ciscoU/exploring-the-functions-of-networking.md'
+    - Network Definition: 'ccna-ciscoU/what-is-a-computer-network.md'
