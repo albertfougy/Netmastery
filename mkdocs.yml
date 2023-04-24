@@ -15,7 +15,7 @@ plugins:
         - '*.tmp'
         - '*.pdf'
         - '*.gz'
-        - '.DS_Store'
+        - '*.DS_Store'
       regex:
         - '.*\.(tmp|bin|tar)$'
 
