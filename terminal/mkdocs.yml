@@ -3,7 +3,6 @@ site_url: https://albertfougy.com
 
 theme:
   name: terminal
-  favicon: 'img/favicon.ico'
   features:
     - navigation.side.indexes
     - footer.prev_next
