@@ -8,18 +8,6 @@ theme:
     - footer.prev_next
     - revision.history
 
-plugins:
-  - exclude:
-      glob:
-        - exclude/this/path/*
-        - '*.tmp'
-        - '*.pdf'
-        - '*.gz'
-        - '*.DS_Store'
-      regex:
-        - '.*\.(tmp|bin|tar)$'
-
-
 
 markdown_extensions:
   # Python Markdown
@@ -43,11 +31,11 @@ markdown_extensions:
 
 nav:
     - Home: 'index.md'
-    - Cisco CCNA Exam Prep: 'Cisco-CCNA-Exam-Prep.md'
+    - Cisco CCNA Exam Prep: 
+      - Index: 'Cisco-CCNA-Exam-Prep/index.md'
     - Network-Fundamentals: 
       - Index: 'Network-Fundamentals/index.md'
       - Functions Of Networking: 'Network-Fundamentals/exploring-the-functions-of-networking.md'
-      - Network Definition: 'Network-Fundamentals/what-is-a-computer-network.md'
       - Release Notes:
         - Index: 'Network-Fundamentals/release-notes/index.md'
     - About: 
