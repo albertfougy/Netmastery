@@ -36,8 +36,8 @@ nav:
     - Network-Fundamentals: 
       - Index: 'Network-Fundamentals/index.md'
       - Functions Of Networking: 'Network-Fundamentals/exploring-the-functions-of-networking.md'
-      - Release Notes:
-        - Index: 'Network-Fundamentals/release-notes/index.md'
+      - Overview:
+        - Index: 'Network-Fundamentals/overview/index.md'
     - About: 
       - Index: 'about/index.md'
       - License: 'about/license.md'

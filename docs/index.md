@@ -1,5 +1,12 @@
 # Home
 
+## Announcement
+
+I will take a 1 month break from my CCNA studies and [Nerderr](https://www.nerderr.com) to reorganize my personal affairs.
+See you all around Memorial Day weekend!
+
+<!--
+
 ## Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
@@ -17,3 +24,5 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+-->
