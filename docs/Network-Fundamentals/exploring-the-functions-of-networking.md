@@ -68,7 +68,7 @@ Computer networks are built with one primary purpose—To enable communication.
 - Communication between network machines, for example, a humidity sensor communicating with a database to send the latest data.
 - Communication between humans and machines, for example, when someone purchases movie tickets online.
 
-**Understanding What Happens During Communication**
+### Understanding What Happens During Communication
 
 Consider a scenario where two users, Alice and Bob, wish to communicate with each other via chat applications on their laptops. The application acts as a mediator between the user and the computer network, facilitating the transformation of the user's input into digital form represented by a series of ones and zeros or bits. This series can be quite lengthy, with each digit representing one bit of data. The digitalized information is then broken down into smaller groups by the application and computer's operating system, and prepared for transmission over the computer network.
 
@@ -111,16 +111,6 @@ Devices can be further divided into endpoints and intermediary devices:
     - Management Services: A modern management service offers centralized management that facilitates designing, provisioning, and applying policies across a network. It includes features for discovery and management of network inventory, management of software images, device configuration automation, network diagnostics, and policy configuration. It provides end-to-end network visibility and uses network insights to optimize the network. An example of a centralized management service is Cisco DNA Center.
 
 ![Network Breakdown](/Network-Fundamentals/images/network-components-breakdown.png)
-
-| OSI Reference Model | Examples of Protocols and Functions |
-|---|---|
-|**Application**|http (tcp 80), https (tcp 443), ftp (tcp 20,21), telnet (tcp 23), tftp (udp 69),SMTP (tcp 25), DNS (tcp and udp 53)  |
-|**Presentation**| translation ASCII, EBCDIC (.wav, .jpg, .mov, .avi, etc.)  |
-|**Session**| establishing, maintaining and terminating the connection RPC(remote procedure call), SMB, ZIP (zone information protocol)  |
-|**Transport**| tcp (connection oriented) udp (connectionless) |
-|**Network**| IP , ICMP, IGMP, ARP, RARP, INVERSE-ARP, RIP, RIPv2 , IGRP, EIGRP, OSPF, IS-IS |
-|**Data Link**| LLC(Logical Link Control) CSMA/CA, LAPF (uses Frame-Relay[deprecated]), ATM (Asynchronous Transfer Mode), SONET (Synchronous Optical Network), HDLC, PPP physical address (MAC address) |
-|**Physical**| media, electrical, procedural and mechanical standards IEEE 802.3 (ETH), 802.11 (wireless) CAT 5,6  |  
 
 ## Characteristics of a Network
 
