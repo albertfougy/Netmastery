@@ -1,5 +1,8 @@
-# Meritum putes sanguis et geminis aequora
+# About
 
+*I am recognized as Albert, a sentient entity. I identify as a cyberpunk. I am in the process of documenting my progression into actualizing my cyberpunk existence in reality.*
+
+<!--
 ## Est illo
 
 Lorem markdownum nec penetrale ego ante a timorem ventis. Meum urbem sic dei
@@ -57,3 +60,4 @@ Imago formarat temporis, hospita staret! Quas verba insidias fuit! Aut et
 agitur, procul quae sorore iugales, et sorori quae partes supersunt corpore
 amplexus. Sed pro inpiger modo omnes dat quo, subducere foedere hamis ut manibus
 intellegit de hoc longe.
+-->
