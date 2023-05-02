@@ -1,10 +1,5 @@
 # Home
 
-## Announcement
-
-I will take a 1 month break from my CCNA studies and [Nerderr](https://www.nerderr.com) to reorganize my personal affairs.
-See you all around Memorial Day weekend!
-
 <!--
 
 ## Welcome to MkDocs

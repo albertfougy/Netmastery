@@ -8,7 +8,6 @@ theme:
     - footer.prev_next
     - revision.history
 
-
 markdown_extensions:
   # Python Markdown
   - attr_list

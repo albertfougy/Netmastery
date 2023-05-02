@@ -1,6 +1,6 @@
 # Cisco CCNA Exam Prep
 
-In preparation for the CCNA exam, I am taking notes from various resources, primarily [Cisco University](https://u.cisco.com) & [Jeremy's IT Lab](https://youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ). The menu items listed above the 'About' section on Cisco U's website serve as a guideline for the course subjects covered in 'Implementing & Administrating Cisco Solutions'. In addition to these resources, I will be incorporating my own notes and providing further depth on topics that need clarification.
+In preparation for the CCNA exam, I am taking notes from various resources, primarily [Cisco University](https://u.cisco.com) & [Jeremy's IT Lab](https://youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ). The menu items located above the 'About' section in the website's side navigation are intended as a guide. They cover the course subjects included in 'Implementing & Administrating Cisco Solutions'. In addition to these resources, I will be incorporating my own notes and providing further depth on topics that need clarification.
 
 ## DESCRIPTION
 
@@ -17,4 +17,4 @@ The CCNA learning path offers comprehensive associate-level training focused on 
 
 ## Glossary
 
-At the conclusion of each overview section, there will be a glossary containing crucial terms. If it becomes apparent that there are an excessive number of terms in each section, I will consolidate them into a separate menu.
+At the conclusion of each overview section, there will be a glossary containing important terms. If it becomes apparent that there are an excessive number of terms in each section, I will consolidate them into a separate menu.
