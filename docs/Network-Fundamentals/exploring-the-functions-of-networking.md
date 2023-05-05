@@ -42,7 +42,7 @@ Enterprise networks are crucial to business activities, and they must be secure,
 
 ### Protocols
 
-Why do we need network protocols/standards?
+Why do we need network protocols and standards?
 
 Network protocols are a set of rules that define how devices communicate with each other in a network. These protocols include specifications such as signal voltage, allowable messages, message structure, lost message management, and error handling. They establish a common set of guidelines for all devices in a network, ensuring that information can be transmitted and received reliably and efficiently.
 
@@ -88,41 +88,45 @@ Once the packets reach their destination, they are reassembled in their original
 Network Devices
 Devices can be further divided into endpoints and intermediary devices:
 
-- Endpoints: In the context of a network, endpoints are called end-user devices and include PCs, laptops, mobile phones, and smart home components. They can also include file servers, printers, sensors, and cameras. While end devices used to be physical hardware units, virtualization now allows for one physical device to emulate multiple end devices, optimizing resource utilization. In virtualization, the emulated computer system operates as a separate physical unit with its own operating system and software, using the host device's resources to perform its functions.
+- **Endpoints:** In the context of a network, endpoints are called end-user devices and include PCs, laptops, mobile phones, and smart home components. They can also include file servers, printers, sensors, and cameras. While end devices used to be physical hardware units, virtualization now allows for one physical device to emulate multiple end devices, optimizing resource utilization. In virtualization, the emulated computer system operates as a separate physical unit with its own operating system and software, using the host device's resources to perform its functions.
 
-- Intermediary devices: These devices interconnect end devices or interconnect networks. In doing so, they perform different functions, which include regenerating and retransmitting signals, choosing the best paths between networks, classifying and forwarding data according to priorities, filtering traffic to allow or deny it based on security settings, and so on. As endpoints can be virtualized, so can intermediary devices or even entire networks. The concept is the same as in the endpoint virtualization—the virtualized element uses a subset of resources available at the physical host system. Intermediary devices that are commonly found in enterprise networks are:  
+- **Intermediary devices:** These devices interconnect end devices or interconnect networks. In doing so, they perform different functions, which include regenerating and retransmitting signals, choosing the best paths between networks, classifying and forwarding data according to priorities, filtering traffic to allow or deny it based on security settings, and so on. As endpoints can be virtualized, so can intermediary devices or even entire networks. The concept is the same as in the endpoint virtualization—the virtualized element uses a subset of resources available at the physical host system. Intermediary devices that are commonly found in enterprise networks are:  
 
-    - Switches: These devices enable multiple endpoints such as PCs, file servers, printers, sensors, cameras, and manufacturing robots to connect to the network. Switches are used to allow devices to communicate on the same network. In general, a switch or group of interconnected switches attempt to forward messages from the sender so it is only received by the destination device. Usually, all the devices that connect to a single switch or a group of interconnected switches belong to a common network and can therefore communicate directly with each other. If an end device wants to communicate with a device that is on a different network, then it requires "services" of a device that is known as a router, which connects different networks together.
+    - **Switches:** These devices enable multiple endpoints such as PCs, file servers, printers, sensors, cameras, and manufacturing robots to connect to the network. Switches are used to allow devices to communicate on the same network. In general, a switch or group of interconnected switches attempt to forward messages from the sender so it is only received by the destination device. Usually, all the devices that connect to a single switch or a group of interconnected switches belong to a common network and can therefore communicate directly with each other. If an end device wants to communicate with a device that is on a different network, then it requires "services" of a device that is known as a router, which connects different networks together.
 
-    - Routers: These devices connect networks and intelligently choose the best paths between networks. Their main function is to route traffic from one network to another. For example, you need a router to connect your office network to the internet. An analogy that may help you understand the basic function of switches and routers is to imagine a network as a neighborhood. A switch is a street that connects the houses, and routers are the crossroads of those streets. The crossroads contain helpful information such as road signs to help you in finding a destination address. Sometimes, you might need the destination after just one crossroad, but other times you might need to cross several. The same is true in networking. Data sometimes "stops" at several routers before it is delivered to the final recipient. Certain switches combine functionalities of routers and switches, and they are called Layer 3 switches.
+    - **Routers:** These devices connect networks and intelligently choose the best paths between networks. Their main function is to route traffic from one network to another. For example, you need a router to connect your office network to the internet. An analogy that may help you understand the basic function of switches and routers is to imagine a network as a neighborhood. A switch is a street that connects the houses, and routers are the crossroads of those streets. The crossroads contain helpful information such as road signs to help you in finding a destination address. Sometimes, you might need the destination after just one crossroad, but other times you might need to cross several. The same is true in networking. Data sometimes "stops" at several routers before it is delivered to the final recipient. Certain switches combine functionalities of routers and switches, and they are called **Layer 3 switches**.
 
-    - APs: These devices allow wireless devices to connect to a wired network. An AP usually connects to a switch as a standalone device, but it also can be an integral component of the router itself.
+    - **APs:** These devices allow wireless devices to connect to a wired network. An AP usually connects to a switch as a standalone device, but it also can be an integral component of the router itself.
 
-    - WLCs: These devices are used by network administrators or network operations centers to facilitate the management of many APs. The WLC automatically manages the configuration of wireless APs.
+    - **WLCs:** These devices are used by network administrators or network operations centers to facilitate the management of many APs. The WLC automatically manages the configuration of wireless APs.
 
-    - Cisco Secure Firewalls: Firewalls are network security systems that monitor and control the incoming and outgoing network traffic based on predetermined security rules. A firewall typically establishes a barrier between a trusted, secure internal network and another outside network, such as the internet, that is assumed not to be secure or trusted.
+    - **Cisco Secure Firewalls:** Firewalls are network security systems that monitor and control the incoming and outgoing network traffic based on predetermined security rules. A firewall typically establishes a barrier between a trusted, secure internal network and another outside network, such as the internet, that is assumed not to be secure or trusted.
 
-    - Intrusion Protection System (IPS): An IPS is a system that performs a deep analysis of network traffic while searching for signs that behavior is suspicious or malicious. If the IPS detects such behavior, it can take protective action immediately. An IPS and a firewall can work in conjunction to defend a network.
+    - **Intrusion Protection System (IPS):** An IPS is a system that performs a deep analysis of network traffic while searching for signs that behavior is suspicious or malicious. If the IPS detects such behavior, it can take protective action immediately. An IPS and a firewall can work in conjunction to defend a network.
 
-    - Management Services: A modern management service offers centralized management that facilitates designing, provisioning, and applying policies across a network. It includes features for discovery and management of network inventory, management of software images, device configuration automation, network diagnostics, and policy configuration. It provides end-to-end network visibility and uses network insights to optimize the network. An example of a centralized management service is Cisco DNA Center.
+    - **Management Services:** A modern management service offers centralized management that facilitates designing, provisioning, and applying policies across a network. It includes features for discovery and management of network inventory, management of software images, device configuration automation, network diagnostics, and policy configuration. It provides end-to-end network visibility and uses network insights to optimize the network. An example of a centralized management service is the Cisco DNA Center.
 
 ![Network Breakdown](/Network-Fundamentals/images/network-components-breakdown.png)
 
 ## Characteristics of a Network
 
-- Topology
+  - Topology:
 
-- Speed
+  - Bitrate/Bandwidth:
 
-- Cost
+  - Availability:
 
-- Security
+  - Reliability:
+  
+- Speed:
 
-- Availability
+- Cost:
 
-- Scalability
+- Security:
 
-- Reliability
+- Quality of Service (QoS):
+
+- Scalability:
 
 ## Physical vs. Logical Topologies
 
