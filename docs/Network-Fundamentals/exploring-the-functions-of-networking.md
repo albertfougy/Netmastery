@@ -6,8 +6,6 @@
 
 A computer network can exist on its own, independent of other computer networks, and it can also connect to other networks. Globally speaking, the internet is an example of many interconnected networks.
 
-> A computer network connects devices that allows them to exchange data with each other, which facilitates information and resource sharing. - Cisco University.
-
 Eons ago, the internet only connected several mainframe computers with computer terminals. The mainframe computers were large, and their computing power was considered enormous, although their computing power is equivalent to today's smartphones. The internet now connects not only laptops, smartphones, and tablets, but also IoT (Internet of Things) devices, TVs, game consoles, and much more. The earlier concept of centralized computing is revived today in the cloud.
 
 Users who wish to connect their networks to the internet can acquire access through a service provider's access network. The service provider can use different technologies from dialup or broadband [telephony networks](https://en.wikipedia.org/wiki/Telephony), such as [ADSL networks](https://en.wikipedia.org/wiki/ADSL), cable networks, mobile, radio or fiber-optic networks. Service provider networks cover large geographical areas and connect with other providers for global coverage.
@@ -52,9 +50,7 @@ The need for network protocols arises from the fact that devices need an agreed-
 
 Similarly, the internet follows a well-defined set of protocol rules, specifically designed for internet communication. These protocols dictate how data is transmitted between devices in networks and how devices communicate with each other. Industry-standard protocols are typically created by various networking or information technology organizations. Examples of such organizations include the Internet Engineering Task Force (IETF), the Institute of Electrical and Electronics Engineers (IEEE), and the International Organization for Standardization (ISO).
 
-The internet is a global infrastructure composed of many computer networks that follow standardized communication rules. It supports various data exchange services, such as email or file transfers. The protocols and processes of the internet are defined in a set of documents called Request for Comments (RFCs). These documents are maintained by the Internet Engineering Task Force and are freely available to the public. By following standardized protocols and processes, the internet allows devices and networks to communicate with each other in a reliable and efficient manner, making it one of the most important technological innovations of modern times.
-
-In the following examples, you will browse through some of the RFCs that you can find at [https://www.ietf.org/standards/rfcs/](https://www.ietf.org/standards/rfcs/).<br/><br/>
+The internet is a global infrastructure composed of many computer networks that follow standardized communication rules. It supports various data exchange services, such as email or file transfers. The protocols and processes of the internet are defined in a set of documents called **[Request for Comments(RFCs)]( https://www.ietf.org/standards/rfcs/)**. These documents are maintained by the Internet Engineering Task Force and are freely available to the public. By following standardized protocols and processes, the internet allows devices and networks to communicate with each other in a reliable and efficient manner, making it one of the most important technological innovations of modern times.
 
 ***Internet vs. Web***  
             
